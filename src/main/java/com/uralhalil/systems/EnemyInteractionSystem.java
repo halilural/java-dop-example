@@ -17,7 +17,7 @@ public class EnemyInteractionSystem {
         return entities.stream()
                 .filter(entity -> entity instanceof Enemy enemy && isNearPlayer(p, enemy))
                 .findFirst()
-                .map(enemy -> new Player(p.x(), p.y(), p.health() - 10)) // Damage player if near an enemy
+                .map(_ -> new Player(p.x(), p.y(), p.health() - 10)) // Damage player if near an enemy
                 .orElse((Player) player); // Return unchanged player if no enemy is nearby
     }
 

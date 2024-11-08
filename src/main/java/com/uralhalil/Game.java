@@ -39,7 +39,7 @@ public class Game {
         );
     }
 
-    public static void main(String[] args) {
+    public static void main() {
         var game = new Game();
         // Example of moving and updating the game
         game.update(1.0f, 0.5f); // Move the player
