@@ -1,7 +1,6 @@
 package com.uralhalil.data;
 
 /**
- * TODO: Type description here
  *
  * @author halilural
  */
